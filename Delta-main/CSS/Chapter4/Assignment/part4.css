@@ -1,0 +1,10 @@
+div {
+  height: 200px;
+  width: 200px;
+  background-color: #4fc32170;
+  transition: 1s linear 5ms;
+}
+div:hover {
+  border-radius: 50%;
+  background-color: red;
+}

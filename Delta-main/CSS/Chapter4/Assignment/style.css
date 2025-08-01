@@ -1,0 +1,31 @@
+section {
+  margin: 50px;
+}
+#box1 {
+  height: 500px;
+  width: 500px;
+  margin-bottom: 25px;
+  text-align: center;
+  background-image: url(IMG_3726.JPG);
+  background-size: contain;
+  color: yellow;
+}
+/* div:nth-of-type(2n) {
+  background-color: blue;
+}
+div:nth-of-type(2n-1) {
+  background-color: red;
+}
+/* transform */
+/* #box1 {
+  transform: rotate(45deg);
+}
+#box2 {
+  transform: scale(0.5);
+}
+#box3 {
+  transform: translateX(100px);
+}
+#box4 {
+  transform: skew(30deg);
+}  */

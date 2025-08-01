@@ -1,0 +1,16 @@
+* {
+  font-family: "Courier New";
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  color: #b92b27;
+}
+.per {
+  background-color: white;
+  color: red;
+}
+p a {
+  color: rgb(251, 6, 251);
+}

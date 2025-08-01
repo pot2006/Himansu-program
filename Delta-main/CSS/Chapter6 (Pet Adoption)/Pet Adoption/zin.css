@@ -1,0 +1,18 @@
+div {
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+  margin: 5px;
+  text-align: center;
+}
+.one {
+  background-color: aqua;
+  position: relative;
+  z-index: 1;
+}
+.two {
+  background-color: blue;
+  position: relative;
+  bottom: 10px;
+  z-index: -1;
+}

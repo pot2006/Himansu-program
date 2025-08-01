@@ -1,0 +1,28 @@
+.outer {
+  height: 400px;
+  width: 400px;
+  background-color: #003049;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+}
+.box {
+  height: 150px;
+  width: 150px;
+  background-color: #669bbc;
+  border: 0.5px solid #c1121f;
+  animation: simple 3s ease 0s infinite alternate;
+}
+@keyframes simple {
+  0% {
+    border-radius: 25%;
+  }
+  50% {
+    rotate: 180deg;
+  }
+  100% {
+    border-radius: 0%;
+  }
+}
